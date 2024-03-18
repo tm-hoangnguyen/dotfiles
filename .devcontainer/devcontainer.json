@@ -1,7 +1,11 @@
-{
-  "image": "mcr.microsoft.com/devcontainers/universal:2",
-  "features": {
-    "ghcr.io/devcontainers/features/python:1": {},
-    "ghcr.io/cirolosapio/devcontainers-features/alpine-gh-copilot-cli:0": {}
-  }
-}
+{ "name": "Hoang's config",
+  "image": "mcr.microsoft.com/vscode/devcontainers/universal:latest",
+  
+ // Add the IDs of extensions you want installed when the container is created.
+ "customizations": {
+     "vscode": {
+         "extensions": [
+             "GitHub.copilot",
+             "ms-python.python"
+         ]
+}}}
